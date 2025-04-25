@@ -27,7 +27,7 @@ Rot_X1 = [1  0        0        0;
 
 % Pełna macierz A1
 A1 = Rot_Z1 * Trans_Z1 * Rot_X1;
-A1 = simplify(A1); % Uproszczenie
+%A1 = simplify(A1); % Uproszczenie
 
 % ------------------------------------------------------
 % 2. Transformacje dla ogniwa 2 (theta2, 0, l2, 0)
@@ -50,7 +50,7 @@ Trans_X2 = [1 0 0 l2;
 
 % Pełna macierz A2
 A2 = Rot_Z2 * Trans_X2;
-A2 = simplify(A2);
+%A2 = simplify(A2);
 
 % ------------------------------------------------------
 % 3. Transformacje dla ogniwa 3 (0, 0, l3, 0)
@@ -106,7 +106,7 @@ disp(A3);
 disp('Macierz A4:');
 disp(A4);
 disp('Pełna kinematyka prosta (FK):');
-disp(FK);
+disp(FK,'IgnoreAnalyticConstraints', true);
 
 % ------------------------------------------------------
 % Przykład obliczeń numerycznych
