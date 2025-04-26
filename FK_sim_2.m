@@ -10,5 +10,9 @@ L(1) = Link('revolute','d',1,'a',1,'alpha',0);
 L(2)= Link('revolute','d',1,'a',1,'alpha',pi);
 L(3) = Link('prismatic','theta',0,'a',0,'alpha',0,'offset',1);
 
+q=[-0.7847 3.1402 1];
 robot = SerialLink(L,'name','RRP');
-robot.plot([0 0 1],'workspace', [-3 3 -3 3 -1 3]);
+robot.plot(q,'workspace', [-3 3 -3 3 -1 3]);
+
+display(robot.fkine(q))
+

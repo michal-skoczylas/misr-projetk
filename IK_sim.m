@@ -1,0 +1,35 @@
+syms theta1 theta2 l1 l2 l3 l4 l5 d3;
+
+dh = [
+    theta1 1 1 0;
+    theta2 1 1 pi;
+    0 d3 0 0
+];
+
+L(1) = Link('revolute','d',1,'a',1,'alpha',0);
+L(2)= Link('revolute','d',1,'a',1,'alpha',pi);
+L(3) = Link('prismatic','theta',0,'a',0,'alpha',0,'offset',1);
+
+robot = SerialLink(L,'name','RRP');
+
+
+T_goal = transl(2 ,0, 1);
+q_sol = robot.ikine(T_goal, 'mask',[1 1 1 0 0 0])
+
+
+
+%REcznie wyliczone
+
+y=1;
+x=1;
+z=1;
+
+t1 = atan(y/x)-acos((x^2+y^2)/(2*sqrt(x^2+y^2)))
+t2=pi-acos((x^2+y^2-2)/(-2))
+d=1-z
+
+
+
+at1=2*atan((2*l2*y + (- l2^4 + 2*l2^2*l4^2 + 2*l2^2*x^2 + 2*l2^2*y^2 - l4^4 + 2*l4^2*x^2 + 2*l4^2*y^2 - x^4 - 2*x^2*y^2 - y^4)^(1/2))/(l2^2 + 2*l2*x - l4^2 + x^2 + y^2))
+at2=-2*atan(((- l2^2 + 2*l2*l4 - l4^2 + x^2 + y^2)*(l2^2 + 2*l2*l4 + l4^2 - x^2 - y^2))^(1/2)/(- l2^2 + 2*l2*l4 - l4^2 + x^2 + y^2))
+ad=l1  - z
