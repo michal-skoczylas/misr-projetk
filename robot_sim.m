@@ -1,12 +1,12 @@
 % Definicja robota RRP
 robot = SerialLink([
-    Revolute('d', 1, 'a', 1, 'alpha', pi, 'qlim', [-pi pi])   % Joint 1
+    Revolute('d', 1, 'a', 1, 'alpha', pi, 'qlim', [-pi pi],'offset',pi/2)   % Joint 1
     Revolute('d', 0, 'a', 1, 'alpha', 0, 'qlim', [-pi pi])    % Joint 2
     Prismatic('theta', 0, 'a', 1, 'alpha', 0, 'qlim', [0 2])  % Joint 3
 ], 'name', 'RRP Robot');
 
 % Pożądana pozycja (x, y, z)
-T_desired = transl(-1, 0.7, 1);  
+T_desired = transl(-1, 2,-0.5 );  
 
 % Początkowe przybliżenie
 q0 = [0, 0, 1];  
@@ -21,7 +21,7 @@ disp(q_sol);  % [theta1, theta2, d3]
 % Weryfikacja
 T_achieved = robot.fkine(q_sol);
 disp('Osiągnięta pozycja:');
-disp(T_achieved.transl);  % Powinno być bliskie [-1, 2, 1]
+disp(T_achieved.transl);  
 
 % Wizualizacja
 robot.plot(q_sol, 'workspace', [-3 3 -3 3 -1 3]);
