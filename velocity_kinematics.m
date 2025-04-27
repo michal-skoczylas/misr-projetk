@@ -21,13 +21,13 @@ R0_2 = T0_2(1:3, 1:3);
 Jv = [
     cross(R0_0 * [0; 0; 1], d0_3 - d0_0), ...  % Składowa liniowa dla przegubu 1
     cross(R0_1 * [0; 0; 1], d0_3 - d0_1), ...  % Składowa liniowa dla przegubu 2
-    cross(R0_2 * [0; 0; 1], d0_3 - d0_2)       % Składowa liniowa dla przegubu 3
+    R0_2 * [0; 0; 1]       % Składowa liniowa dla przegubu 3
 ];
 
 Jw = [
     R0_0 * [0; 0; 1], ...  % Składowa kątowa dla przegubu 1 (obrotowego)
     R0_1 * [0; 0; 1], ...  % Składowa kątowa dla przegubu 2 (obrotowego)
-    R0_2 * [0; 0; 1]       % Składowa kątowa dla przegubu 3 (przesuwnego)
+    R0_2 * [0; 0; 0]       % Składowa kątowa dla przegubu 3 (przesuwnego)
 ];
 
 % Pełna macierz Jakobiana (6x3)
