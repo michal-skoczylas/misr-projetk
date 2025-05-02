@@ -35,3 +35,41 @@ J = simplify([Jv; Jw]);
 
 disp('Macierz Jakobiana:');
 disp(J);
+% 
+% 
+% disp('T0_1:');
+% disp(T0_1)
+% 
+% 
+% disp('T0_2:');
+% disp(T0_2)
+% 
+% 
+% disp('T0_3:');
+% disp(T0_3)
+% 
+% 
+% disp('d0_0');
+% disp(d0_0);
+% 
+% disp('d0_1');
+% disp(d0_1);
+% 
+% disp('d0_2');
+% disp(d0_2);
+% 
+% disp('d0_2');
+% disp(d0_2);
+% 
+% disp('d0_3');
+% disp(d0_3);
+% 
+% 
+% 
+% disp('R0_0');
+% disp(R0_0)
+% 
+% disp('R0_1');
+% disp(R0_1)
+% disp('R0_2');
+% disp(R0_2)
