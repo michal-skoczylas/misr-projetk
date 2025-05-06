@@ -1,5 +1,8 @@
 %Wyznaczenie macierzy przejsc
-syms theta1 theta2 l1 l2 l3 l4 l5 d3;
+syms theta1 theta2 l1 l2 l3 l4 l5 d3 m1 m2 m3 Ixx1 Iyy1 Izz1 Ixx2 Iyy2 Izz2 Ixx3 Iyy3 Izz3;
+syms theta1_bis theta2_bis d3_bis;
+syms theta1_prim theta2_prim d3_prim;
+syms g;
 
 T0_1=[cosd(theta1) -sind(theta1) 0 0;sind(theta1) cosd(theta1) 0 0;0 0 1 l1;0 0 0 1]*[1 0 0 l2;0 1 0 0;0 0 1 0;0 0 0 1];
 
@@ -12,6 +15,15 @@ simplify(FK);
 T0_2=simplify(T0_1*T1_2);
 T0_3=FK;
 
+R0_1=T0_1(1:3,1:3);
+R0_2=T0_2(1:3,1:3);
+R0_3=T0_3(1:3,1:3);
+
+%Tensory bezwladnosci
+
+I1 = [Ixx1 0 0 ; 0 Iyy1 0 ; 0 0 Izz1];
+I2 = [Ixx2 0 0 ; 0 Iyy2 0 ; 0 0 Izz2];
+I3 = [Ixx3 0 0 ; 0 Iyy3 0 ; 0 0 Izz3];
 
 %Wyznaczenie OC
 OC1 = 1/2*T0_1(1:3,end);
@@ -24,11 +36,69 @@ z1=T0_1(1:3,3);
 z2=T0_2(1:3,3);
 p0=[0; 0; 0 ];
 p1=T0_1(1:3,end);
-Joc1=[cross(z0,OC1-p0);z0];
-Joc2=[cross(z0,OC2-p0) cross(z1,OC2-p1);z0 z1];
+Joc1=[cross(z0,OC1-p0) [0;0;0] [0;0;0];z0 [0;0;0] [0;0;0]];
+Joc2=[cross(z0,OC2-p0) cross(z1,OC2-p1) [0;0;0];z0 z1 [0;0;0]];
 Joc3 =[cross(z0,OC3-p0) cross(z1,OC3-p1) z2; z0 z1 [0;0;0]];
 
-%
+
+Jv1=Joc1(1:3,:);
+Jw1=Joc1(4:6,:);
+Jv2 = Joc2(1:3);
+Jw2=Joc2(4:6,:);
+Jv3=Joc3(1:3,:);
+Jw3=Joc3(4:6,:);
+
+%Wyliczenie macierzy D
+%D1
+D1=simplify(transpose(Jv1)*Jv1*m1 + transpose(Jw1)*R0_1*I1*transpose(R0_1)*Jw1);
+%D2
+D2=simplify(transpose(Jv2)*Jv2*m2 + transpose(Jw2)*R0_2*I2*transpose(R0_2)*Jw2);
+%D3
+D3=simplify(transpose(Jv3)*Jv3*m3 + transpose(Jw3)*R0_3*I3*transpose(R0_3)*Jw3);
+D=simplify(D1+D2+D3);
+%Sprawdzenie symetryczności
+D-transpose(D);
+
+%Symbole Christofela
+
+q=[theta1,theta2,d3];
+C=sym(zeros(3,3,3));
+for i=1:3;
+    for j=1:3;
+        for k=1:3;
+              C(i,j,k)=simplify(1/2*(diff(D(j,k),q(i))+diff(D(i,k),q(j))-diff(D(i,j),q(k))));
+              
+        end
+    end
+end
 
 
+CH=sym(zeros(3,1));
+q_prim = [theta1_prim ;theta2_prim ;d3_prim];
+for k=1:3;
+    for i=1:3;
+        for j=1:3;
+            CH(k) = CH(k)+C(i,j,k)*q_prim(i)*q_prim(j);
+        end
+    end
+end
+CH=simplify(CH);
+;
+
+
+%Energie potencjalne
+E1= m1*g*OC1(3);
+E2=m2*g*OC2(3);
+E3=m3*g*OC3(3);
+E=E1+E2+E3;
+
+
+G1=diff(E,theta1);
+G2=diff(E,theta2);
+G3=diff(E,d3);
+
+G=[G1;G2;G3];
+q_bis=[theta1_bis;theta2_bis;d3_bis];
+
+F=D*q_bis
 
