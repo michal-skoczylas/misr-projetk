@@ -1,0 +1,6 @@
+Invoking command in '/misr-projetk/dev_ws/build/robot_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /misr-projetk/dev_ws/src/robot_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/misr-projetk/dev_ws/install/robot_publisher
+Invoked command in '/misr-projetk/dev_ws/build/robot_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /misr-projetk/dev_ws/src/robot_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/misr-projetk/dev_ws/install/robot_publisher
+Invoking command in '/misr-projetk/dev_ws/build/robot_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /misr-projetk/dev_ws/build/robot_publisher -- -j8 -l8
+Invoked command in '/misr-projetk/dev_ws/build/robot_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /misr-projetk/dev_ws/build/robot_publisher -- -j8 -l8
+Invoking command in '/misr-projetk/dev_ws/build/robot_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /misr-projetk/dev_ws/build/robot_publisher
+Invoked command in '/misr-projetk/dev_ws/build/robot_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /misr-projetk/dev_ws/build/robot_publisher

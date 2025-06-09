@@ -1,0 +1,1 @@
+/misr-projetk/dev_ws/build/robot_publisher/ament_cmake_environment_hooks/local_setup.bash

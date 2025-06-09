@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: robot_publisher
+    relative_path: urdf/my_robot.urdf.xacro
+  srdf:
+    relative_path: config/scara.srdf
+  package_settings:
+    author_name: ""
+    author_email: ""
+    generated_timestamp: 1749377411

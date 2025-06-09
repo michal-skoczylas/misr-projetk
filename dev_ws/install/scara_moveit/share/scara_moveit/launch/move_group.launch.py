@@ -1,0 +1,1 @@
+/misr-projetk/dev_ws/src/scara_moveit/launch/move_group.launch.py

@@ -1,0 +1,1 @@
+/misr-projetk/dev_ws/build/scara_moveit/ament_cmake_environment_hooks/local_setup.zsh

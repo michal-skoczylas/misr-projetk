@@ -1,0 +1,55 @@
+[0.016s] Invoking command in '/misr-projetk/dev_ws/build/scara_moveit': AMENT_PREFIX_PATH=/misr-projetk/dev_ws/install/robot_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/misr-projetk/dev_ws/install/robot_publisher:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /misr-projetk/dev_ws/src/scara_moveit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/misr-projetk/dev_ws/install/scara_moveit
+[0.130s] -- The C compiler identification is GNU 13.3.0
+[0.221s] -- The CXX compiler identification is GNU 13.3.0
+[0.247s] -- Detecting C compiler ABI info
+[0.398s] -- Detecting C compiler ABI info - done
+[0.420s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.421s] -- Detecting C compile features
+[0.421s] -- Detecting C compile features - done
+[0.436s] -- Detecting CXX compiler ABI info
+[0.620s] -- Detecting CXX compiler ABI info - done
+[0.642s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.643s] -- Detecting CXX compile features
+[0.644s] -- Detecting CXX compile features - done
+[0.654s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.933s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.072s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.329s] -- Configuring done (1.3s)
+[1.333s] -- Generating done (0.0s)
+[1.336s] -- Build files have been written to: /misr-projetk/dev_ws/build/scara_moveit
+[1.342s] Invoked command in '/misr-projetk/dev_ws/build/scara_moveit' returned '0': AMENT_PREFIX_PATH=/misr-projetk/dev_ws/install/robot_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/misr-projetk/dev_ws/install/robot_publisher:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /misr-projetk/dev_ws/src/scara_moveit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/misr-projetk/dev_ws/install/scara_moveit
+[1.343s] Invoking command in '/misr-projetk/dev_ws/build/scara_moveit': AMENT_PREFIX_PATH=/misr-projetk/dev_ws/install/robot_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/misr-projetk/dev_ws/install/robot_publisher:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /misr-projetk/dev_ws/build/scara_moveit -- -j8 -l8
+[1.416s] Invoked command in '/misr-projetk/dev_ws/build/scara_moveit' returned '0': AMENT_PREFIX_PATH=/misr-projetk/dev_ws/install/robot_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/misr-projetk/dev_ws/install/robot_publisher:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /misr-projetk/dev_ws/build/scara_moveit -- -j8 -l8
+[1.418s] Invoking command in '/misr-projetk/dev_ws/build/scara_moveit': AMENT_PREFIX_PATH=/misr-projetk/dev_ws/install/robot_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/misr-projetk/dev_ws/install/robot_publisher:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /misr-projetk/dev_ws/build/scara_moveit
+[1.432s] -- Install configuration: ""
+[1.432s] -- Execute custom install script
+[1.433s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/ament_index/resource_index/package_run_dependencies/scara_moveit
+[1.451s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/ament_index/resource_index/parent_prefix_path/scara_moveit
+[1.471s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/scara_moveit/environment/ament_prefix_path.sh
+[1.488s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/scara_moveit/environment/ament_prefix_path.dsv
+[1.506s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/scara_moveit/environment/path.sh
+[1.524s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/scara_moveit/environment/path.dsv
+[1.540s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/scara_moveit/local_setup.bash
+[1.559s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/scara_moveit/local_setup.sh
+[1.575s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/scara_moveit/local_setup.zsh
+[1.592s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/scara_moveit/local_setup.dsv
+[1.609s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/scara_moveit/package.dsv
+[1.624s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/ament_index/resource_index/packages/scara_moveit
+[1.641s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/scara_moveit/cmake/scara_moveitConfig.cmake
+[1.660s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/scara_moveit/cmake/scara_moveitConfig-version.cmake
+[1.676s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/scara_moveit/package.xml
+[1.693s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/scara_moveit/launch/demo.launch.py
+[1.709s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/scara_moveit/launch/move_group.launch.py
+[1.724s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/scara_moveit/launch/moveit_rviz.launch.py
+[1.739s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/scara_moveit/launch/rsp.launch.py
+[1.758s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/scara_moveit/launch/setup_assistant.launch.py
+[1.775s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/scara_moveit/launch/spawn_controllers.launch.py
+[1.790s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/scara_moveit/launch/static_virtual_joint_tfs.launch.py
+[1.808s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/scara_moveit/launch/warehouse_db.launch.py
+[1.824s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/scara_moveit/config/joint_limits.yaml
+[1.840s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/scara_moveit/config/kinematics.yaml
+[1.859s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/scara_moveit/config/moveit.rviz
+[1.876s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/scara_moveit/config/pilz_cartesian_limits.yaml
+[1.893s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/scara_moveit/config/scara.srdf
+[1.911s] -- Symlinking: /misr-projetk/dev_ws/install/scara_moveit/share/scara_moveit/.setup_assistant
+[1.929s] Invoked command in '/misr-projetk/dev_ws/build/scara_moveit' returned '0': AMENT_PREFIX_PATH=/misr-projetk/dev_ws/install/robot_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/misr-projetk/dev_ws/install/robot_publisher:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /misr-projetk/dev_ws/build/scara_moveit

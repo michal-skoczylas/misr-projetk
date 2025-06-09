@@ -1,0 +1,29 @@
+[0.016s] Invoking command in '/misr-projetk/dev_ws/build/robot_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /misr-projetk/dev_ws/build/robot_publisher -- -j8 -l8
+[0.097s] Invoked command in '/misr-projetk/dev_ws/build/robot_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /misr-projetk/dev_ws/build/robot_publisher -- -j8 -l8
+[0.115s] Invoking command in '/misr-projetk/dev_ws/build/robot_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /misr-projetk/dev_ws/build/robot_publisher
+[0.132s] -- Install configuration: ""
+[0.132s] -- Execute custom install script
+[0.133s] -- Up-to-date symlink: /misr-projetk/dev_ws/install/robot_publisher/share/robot_publisher/urdf/core
+[0.133s] -- Up-to-date symlink: /misr-projetk/dev_ws/install/robot_publisher/share/robot_publisher/urdf/my_robot.urdf.xacro
+[0.133s] -- Up-to-date symlink: /misr-projetk/dev_ws/install/robot_publisher/share/robot_publisher/urdf/robot.urdf
+[0.133s] -- Symlinking: /misr-projetk/dev_ws/install/robot_publisher/share/robot_publisher/launch/csv_pointcloud.launch.py
+[0.151s] -- Up-to-date symlink: /misr-projetk/dev_ws/install/robot_publisher/share/robot_publisher/launch/display.launch.py
+[0.151s] -- Up-to-date symlink: /misr-projetk/dev_ws/install/robot_publisher/share/robot_publisher/launch/workspace.launch.py
+[0.152s] -- Up-to-date symlink: /misr-projetk/dev_ws/install/robot_publisher/share/robot_publisher/rviz/config.rviz2
+[0.152s] -- Up-to-date symlink: /misr-projetk/dev_ws/install/robot_publisher/share/ament_index/resource_index/package_run_dependencies/robot_publisher
+[0.153s] -- Up-to-date symlink: /misr-projetk/dev_ws/install/robot_publisher/share/ament_index/resource_index/parent_prefix_path/robot_publisher
+[0.153s] -- Up-to-date symlink: /misr-projetk/dev_ws/install/robot_publisher/share/robot_publisher/environment/ament_prefix_path.sh
+[0.153s] -- Up-to-date symlink: /misr-projetk/dev_ws/install/robot_publisher/share/robot_publisher/environment/ament_prefix_path.dsv
+[0.154s] -- Up-to-date symlink: /misr-projetk/dev_ws/install/robot_publisher/share/robot_publisher/environment/path.sh
+[0.154s] -- Up-to-date symlink: /misr-projetk/dev_ws/install/robot_publisher/share/robot_publisher/environment/path.dsv
+[0.154s] -- Up-to-date symlink: /misr-projetk/dev_ws/install/robot_publisher/share/robot_publisher/local_setup.bash
+[0.155s] -- Up-to-date symlink: /misr-projetk/dev_ws/install/robot_publisher/share/robot_publisher/local_setup.sh
+[0.155s] -- Up-to-date symlink: /misr-projetk/dev_ws/install/robot_publisher/share/robot_publisher/local_setup.zsh
+[0.156s] -- Up-to-date symlink: /misr-projetk/dev_ws/install/robot_publisher/share/robot_publisher/local_setup.dsv
+[0.156s] -- Symlinking: /misr-projetk/dev_ws/install/robot_publisher/share/robot_publisher/package.dsv
+[0.172s] -- Up-to-date symlink: /misr-projetk/dev_ws/install/robot_publisher/share/ament_index/resource_index/packages/robot_publisher
+[0.172s] -- Up-to-date symlink: /misr-projetk/dev_ws/install/robot_publisher/share/robot_publisher/cmake/robot_publisherConfig.cmake
+[0.173s] -- Up-to-date symlink: /misr-projetk/dev_ws/install/robot_publisher/share/robot_publisher/cmake/robot_publisherConfig-version.cmake
+[0.173s] -- Up-to-date symlink: /misr-projetk/dev_ws/install/robot_publisher/share/robot_publisher/package.xml
+[0.173s] -- Up-to-date: /misr-projetk/dev_ws/install/robot_publisher/lib/robot_publisher/workspace_publisher
+[0.176s] Invoked command in '/misr-projetk/dev_ws/build/robot_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /misr-projetk/dev_ws/build/robot_publisher

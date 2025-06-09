@@ -1,0 +1,15 @@
+/ros_dev/dev_ws/src/install/robot_publisher/share/ament_index/resource_index/package_run_dependencies/robot_publisher
+/ros_dev/dev_ws/src/install/robot_publisher/share/ament_index/resource_index/parent_prefix_path/robot_publisher
+/ros_dev/dev_ws/src/install/robot_publisher/share/robot_publisher/environment/ament_prefix_path.sh
+/ros_dev/dev_ws/src/install/robot_publisher/share/robot_publisher/environment/ament_prefix_path.dsv
+/ros_dev/dev_ws/src/install/robot_publisher/share/robot_publisher/environment/path.sh
+/ros_dev/dev_ws/src/install/robot_publisher/share/robot_publisher/environment/path.dsv
+/ros_dev/dev_ws/src/install/robot_publisher/share/robot_publisher/local_setup.bash
+/ros_dev/dev_ws/src/install/robot_publisher/share/robot_publisher/local_setup.sh
+/ros_dev/dev_ws/src/install/robot_publisher/share/robot_publisher/local_setup.zsh
+/ros_dev/dev_ws/src/install/robot_publisher/share/robot_publisher/local_setup.dsv
+/ros_dev/dev_ws/src/install/robot_publisher/share/robot_publisher/package.dsv
+/ros_dev/dev_ws/src/install/robot_publisher/share/ament_index/resource_index/packages/robot_publisher
+/ros_dev/dev_ws/src/install/robot_publisher/share/robot_publisher/cmake/robot_publisherConfig.cmake
+/ros_dev/dev_ws/src/install/robot_publisher/share/robot_publisher/cmake/robot_publisherConfig-version.cmake
+/ros_dev/dev_ws/src/install/robot_publisher/share/robot_publisher/package.xml

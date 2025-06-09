@@ -1,0 +1,1 @@
+/misr-projetk/dev_ws/src/scara_moveit/launch/setup_assistant.launch.py

@@ -1,0 +1,1 @@
+/ros_dev/dev_ws/src/build/robot_publisher/ament_cmake_core/robot_publisherConfig-version.cmake

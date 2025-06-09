@@ -1,0 +1,48 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (1.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /misr-projetk/dev_ws/build/moveit
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /misr-projetk/dev_ws/install/moveit/share/ament_index/resource_index/package_run_dependencies/moveit
+-- Symlinking: /misr-projetk/dev_ws/install/moveit/share/ament_index/resource_index/parent_prefix_path/moveit
+-- Symlinking: /misr-projetk/dev_ws/install/moveit/share/moveit/environment/ament_prefix_path.sh
+-- Symlinking: /misr-projetk/dev_ws/install/moveit/share/moveit/environment/ament_prefix_path.dsv
+-- Symlinking: /misr-projetk/dev_ws/install/moveit/share/moveit/environment/path.sh
+-- Symlinking: /misr-projetk/dev_ws/install/moveit/share/moveit/environment/path.dsv
+-- Symlinking: /misr-projetk/dev_ws/install/moveit/share/moveit/local_setup.bash
+-- Symlinking: /misr-projetk/dev_ws/install/moveit/share/moveit/local_setup.sh
+-- Symlinking: /misr-projetk/dev_ws/install/moveit/share/moveit/local_setup.zsh
+-- Symlinking: /misr-projetk/dev_ws/install/moveit/share/moveit/local_setup.dsv
+-- Symlinking: /misr-projetk/dev_ws/install/moveit/share/moveit/package.dsv
+-- Symlinking: /misr-projetk/dev_ws/install/moveit/share/ament_index/resource_index/packages/moveit
+-- Symlinking: /misr-projetk/dev_ws/install/moveit/share/moveit/cmake/moveitConfig.cmake
+-- Symlinking: /misr-projetk/dev_ws/install/moveit/share/moveit/cmake/moveitConfig-version.cmake
+-- Symlinking: /misr-projetk/dev_ws/install/moveit/share/moveit/package.xml
+-- Symlinking: /misr-projetk/dev_ws/install/moveit/share/moveit/launch/demo.launch.py
+-- Symlinking: /misr-projetk/dev_ws/install/moveit/share/moveit/launch/move_group.launch.py
+-- Symlinking: /misr-projetk/dev_ws/install/moveit/share/moveit/launch/moveit_rviz.launch.py
+-- Symlinking: /misr-projetk/dev_ws/install/moveit/share/moveit/launch/rsp.launch.py
+-- Symlinking: /misr-projetk/dev_ws/install/moveit/share/moveit/launch/setup_assistant.launch.py
+-- Symlinking: /misr-projetk/dev_ws/install/moveit/share/moveit/launch/spawn_controllers.launch.py
+-- Symlinking: /misr-projetk/dev_ws/install/moveit/share/moveit/launch/static_virtual_joint_tfs.launch.py
+-- Symlinking: /misr-projetk/dev_ws/install/moveit/share/moveit/launch/warehouse_db.launch.py
+-- Symlinking: /misr-projetk/dev_ws/install/moveit/share/moveit/config/joint_limits.yaml
+-- Symlinking: /misr-projetk/dev_ws/install/moveit/share/moveit/config/moveit.rviz
+-- Symlinking: /misr-projetk/dev_ws/install/moveit/share/moveit/config/pilz_cartesian_limits.yaml
+-- Symlinking: /misr-projetk/dev_ws/install/moveit/share/moveit/config/scara.srdf
+-- Symlinking: /misr-projetk/dev_ws/install/moveit/share/moveit/.setup_assistant
