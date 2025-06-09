@@ -1,9 +1,0 @@
-/ros_dev/dev_ws/src/build/robot_publisher/CMakeFiles/uninstall.dir
-/ros_dev/dev_ws/src/build/robot_publisher/CMakeFiles/robot_publisher_uninstall.dir
-/ros_dev/dev_ws/src/build/robot_publisher/CMakeFiles/test.dir
-/ros_dev/dev_ws/src/build/robot_publisher/CMakeFiles/edit_cache.dir
-/ros_dev/dev_ws/src/build/robot_publisher/CMakeFiles/rebuild_cache.dir
-/ros_dev/dev_ws/src/build/robot_publisher/CMakeFiles/list_install_components.dir
-/ros_dev/dev_ws/src/build/robot_publisher/CMakeFiles/install.dir
-/ros_dev/dev_ws/src/build/robot_publisher/CMakeFiles/install/local.dir
-/ros_dev/dev_ws/src/build/robot_publisher/CMakeFiles/install/strip.dir

@@ -1,1 +1,0 @@
-/misr-projetk/dev_ws/build/robot_publisher/ament_cmake_core/robot_publisherConfig-version.cmake

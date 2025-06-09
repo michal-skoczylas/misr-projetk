@@ -1,1 +1,0 @@
-/misr-projetk/dev_ws/src/moveit/launch/setup_assistant.launch.py

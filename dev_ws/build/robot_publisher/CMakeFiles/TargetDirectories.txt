@@ -1,9 +1,0 @@
-/misr-projetk/dev_ws/build/robot_publisher/CMakeFiles/uninstall.dir
-/misr-projetk/dev_ws/build/robot_publisher/CMakeFiles/robot_publisher_uninstall.dir
-/misr-projetk/dev_ws/build/robot_publisher/CMakeFiles/test.dir
-/misr-projetk/dev_ws/build/robot_publisher/CMakeFiles/edit_cache.dir
-/misr-projetk/dev_ws/build/robot_publisher/CMakeFiles/rebuild_cache.dir
-/misr-projetk/dev_ws/build/robot_publisher/CMakeFiles/list_install_components.dir
-/misr-projetk/dev_ws/build/robot_publisher/CMakeFiles/install.dir
-/misr-projetk/dev_ws/build/robot_publisher/CMakeFiles/install/local.dir
-/misr-projetk/dev_ws/build/robot_publisher/CMakeFiles/install/strip.dir

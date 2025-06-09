@@ -1,9 +1,0 @@
-/ros_dev/dev_ws/src/build/my_package/CMakeFiles/uninstall.dir
-/ros_dev/dev_ws/src/build/my_package/CMakeFiles/my_package_uninstall.dir
-/ros_dev/dev_ws/src/build/my_package/CMakeFiles/test.dir
-/ros_dev/dev_ws/src/build/my_package/CMakeFiles/edit_cache.dir
-/ros_dev/dev_ws/src/build/my_package/CMakeFiles/rebuild_cache.dir
-/ros_dev/dev_ws/src/build/my_package/CMakeFiles/list_install_components.dir
-/ros_dev/dev_ws/src/build/my_package/CMakeFiles/install.dir
-/ros_dev/dev_ws/src/build/my_package/CMakeFiles/install/local.dir
-/ros_dev/dev_ws/src/build/my_package/CMakeFiles/install/strip.dir

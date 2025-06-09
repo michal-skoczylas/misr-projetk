@@ -1,1 +1,0 @@
-/misr-projetk/dev_ws/src/scara_moveit/launch/spawn_controllers.launch.py

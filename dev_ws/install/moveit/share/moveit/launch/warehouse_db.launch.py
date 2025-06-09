@@ -1,1 +1,0 @@
-/misr-projetk/dev_ws/src/moveit/launch/warehouse_db.launch.py

@@ -1,1 +1,0 @@
-/misr-projetk/dev_ws/src/moveit/launch/static_virtual_joint_tfs.launch.py

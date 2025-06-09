@@ -1,2 +1,0 @@
-/misr-projetk/dev_ws/install/robot_publisher/lib/robot_publisher/workspace_publisher
-/misr-projetk/dev_ws/install/robot_publisher/lib/robot_publisher/csv_pointcloud_publisher
